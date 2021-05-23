@@ -45,15 +45,15 @@
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
   "dependencies": {
-    "@material-ui/core": "^4.7.2",
-    "@material-ui/icons": "^4.5.1",
-    "@open-rpc/docs-react": "^1.1.5",
-    "@open-rpc/meta-schema": "^1.13.20",
-    "@open-rpc/schema-utils-js": "^1.11.3",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@open-rpc/docs-react": "^1.5.0",
+    "@open-rpc/meta-schema": "^1.14.2",
+    "@open-rpc/schema-utils-js": "^1.14.3",
     "monaco-editor": "^0.18.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "uuid": "^3.3.2"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "uuid": "^3.4.0"
   },
   "browserslist": {
     "production": [
@@ -69,13 +69,13 @@
   },
   "devDependencies": {
     "@types/mocha": "^5.2.6",
-    "@types/node": "^12.7.4",
-    "@types/react": "^16.8.14",
-    "@types/react-dom": "^16.8.4",
-    "@types/uuid": "^3.4.4",
-    "react-scripts": "^3.3.0",
+    "@types/node": "^12.20.13",
+    "@types/react": "^16.14.6",
+    "@types/react-dom": "^16.9.13",
+    "@types/uuid": "^3.4.9",
+    "react-scripts": "^3.4.4",
     "tslint": "^5.14.0",
-    "typescript": "^3.3.4000",
-    "vscode": "^1.1.33"
+    "typescript": "^3.9.9",
+    "vscode": "^1.1.37"
   }
 }

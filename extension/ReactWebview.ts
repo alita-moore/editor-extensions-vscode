@@ -1,10 +1,10 @@
 import * as vscode from 'vscode';
 import * as path from 'path';
 import * as v4 from 'uuid/v4';
-import { OpenRPC } from '@open-rpc/meta-schema';
+import { OpenrpcDocument } from '@open-rpc/meta-schema';
 import { parseOpenRPCDocument } from '@open-rpc/schema-utils-js';
 
-const parseDocument = (doc: string): Promise<OpenRPC> => {
+const parseDocument = (doc: string): Promise<OpenrpcDocument> => {
   return parseOpenRPCDocument(doc.replace('\n', ''), {
     validate: false
   });
